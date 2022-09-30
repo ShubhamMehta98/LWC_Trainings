@@ -1,0 +1,12 @@
+.heading {
+    font-style: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 41, 138);
+}
+
+.table {
+    border-right: 2px solid rgb(154, 154, 154);
+    border-left: 2px solid rgb(154, 154, 154);
+    border-top: 2px solid rgb(154, 154, 154);
+    border-bottom: 2px solid rgb(154, 154, 154);
+}
