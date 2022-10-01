@@ -75,3 +75,5 @@ console.log(c === d) // false
 // Spread Operator
 // it behaves diffrent in diffrent use case
 // operator shape is three consequtive dots
+
+// string oreations
