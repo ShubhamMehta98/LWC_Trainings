@@ -75,5 +75,66 @@ console.log(c === d) // false
 // Spread Operator
 // it behaves diffrent in diffrent use case
 // operator shape is three consequtive dots
+var arr = ["a", "b", "c", "d"]
+console.log(arr)
+    //to print array with index
+console.log(arr[0]) // will print 'a'
 
-// string oreations
+// javascripts Objects 
+// it is used when we have to assign many properties to similar objects
+
+var obj = {
+    "name": "Shubham",
+    "Phone": "+91XXXXXXX",
+    "City": "Ranchi",
+    "Full Name": "S Mehta"
+
+}
+console.log(obj) // will print ever value inside obj
+console.log(obj.name) // will print name value inside obj
+console.log(obj.City) // will print City value inside obj
+    //console.log(obj.Full Name) --> // will thorw error
+console.log(obj["Full Name"])
+    // to add value in objects
+obj.hobbies = "Poetry"
+console.log(obj.hobbies) // will print value inside hobbies of obj
+
+// EXPANDING OF STRING
+let greeting = "Hello Everyone"
+let charlist = [...greeting] // covert string to a char array
+console.log(greeting)
+console.log(greeting[4]) // will return 'o'
+console.log(charlist) // will return char array
+console.log(charlist[4]) //will also return o
+
+// combining an array]
+
+let arr1 = ["amazon", "google"]
+let arr2 = ["facebook", "instagram"]
+let arr3 = [...arr2, ...arr1]
+console.log(arr3) // will append both array
+
+// adding any values to array
+let array1 = ["rudra", "shiv"]
+let array2 = [...array1, "ram"]
+console.log(array2)
+
+// combining objects
+let obj1 = {
+    name: "salesforce",
+    age: "10",
+    Rank: "4"
+}
+let obj2 = {
+    name: "vlocity",
+    age: "3"
+}
+let obj3 = {...obj1, ...obj2 }
+console.log(obj3) // this will merge 2nd placed object with uncommon value
+
+// shalllow copy
+var arr10 = ["x", "y", "z"]
+arr10.push(20)
+var arr11 = [...arr10]
+arr11.push("nikhil")
+console.log(arr11)
